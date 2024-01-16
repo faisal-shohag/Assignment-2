@@ -395,6 +395,10 @@ ul li::before {
     padding: 1rem 1rem;
  }
 
+ .form-card .small-text{
+    width: 85%;
+ }
+
  hr{
     background-color: rgba(58, 53, 53, 0.444);
     height: 0.5px;
@@ -474,6 +478,10 @@ footer hr{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    border-left: 5px solid rgb(243, 216, 221);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .b-title{
