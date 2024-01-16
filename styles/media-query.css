@@ -35,6 +35,12 @@
     .section2 .sub-sec img{
         width: 100%;
     }
+
+    .grid-gallary, .grid-gallary2, .grid-gallary3{
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+    }
 }
 
 
