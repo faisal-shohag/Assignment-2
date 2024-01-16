@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+
+  .bars{
+    display: block;
+  }
+
+  .banner-input{
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-top: 0rem;
+  }
+
+  .banner-title{
+    width: 25rem;
+    gap: 0.5rem;
+  }
+
+  main {
+    width: 500px;
+    margin: 0 auto;
+}
+
+    .newsletter, .cards1, .section2{
+        flex-direction: column;
+    }
+
+    .newsletter .form-card{
+        width: 100%;
+    }
+
+    .section2 .sub-sec img{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .nav {
+        display: flex;
+      }
+    
+      .bars{
+        display: none;
+      }
+  }
